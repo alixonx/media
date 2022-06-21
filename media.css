@@ -1,0 +1,44 @@
+/* planshet */
+@media screen and (max-width:990px) {
+    .title{
+        font-size: 35px;
+        color: rgb(0, 0, 0);
+    }
+    body{
+        background-color: dodgerblue;
+    }
+
+    .grid_con{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .menu{
+        display: block;
+    }
+
+    .collection{
+        display: none;
+    }
+
+    nav{
+        padding: 0 20px;
+    }
+}
+ 
+@media screen and (max-width:600px) {
+    .title{
+        font-size: 20px;
+        color: gold;
+    }
+    body{
+        background-color: rgba(0, 0, 0, 0.357);
+    }
+    .grid_con{
+        grid-template-columns:  1fr;
+    }
+
+    nav{
+        padding: 0 20px;
+    }
+}
+
